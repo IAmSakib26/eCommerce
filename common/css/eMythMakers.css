@@ -1,0 +1,209 @@
+body{font-family:Kiron;font-size:16px;background:#fff;color:#222;font-weight:400;overflow-x:hidden;letter-spacing:-0.2px;}
+h1,h2,h3,h4,h5,h6{font-family:Kiron;margin-bottom:0;font-size:19px;line-height:1.5;letter-spacing:-0.2px;font-weight:600;padding-left:2px;}
+a{color:#333;text-decoration:none;}a:hover{text-decoration:none;color:#336633}
+p{margin-bottom:0;font-size:16px;line-height:23px}
+.container{max-width:1300px!important;padding-right:10px;padding-left:10px}
+.container-fluid{padding:0;overflow:hidden;}
+.img100{width:100%}
+.Brief p{font-size:16px;line-height:23px;color:#555;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;margin-top:3px;padding-left:2px;}
+.pHead{font-weight:bold;margin-bottom:5px}
+.row{--bs-gutter-x:1.3rem;}
+.Title{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;}
+.BGTitle{font-size:22px;line-height:1.45;}
+.SMTitle{font-size:17px;line-height:1.45;max-height:72px;overflow:hidden;}
+picture img{aspect-ratio:1.7777;width:100%;object-fit:cover;object-position:center;}
+
+
+/* ============== Header CSS ============== */
+.TopNav{background: #000;color: #fff;}
+.TopNav .InfoText{display: flex;}
+.TopNav .InfoText p{margin: 0 10px;float: inline-end;}
+.TopNav .InfoLink{float: right;display: flex;}
+.TopNav .InfoLink .InfoIcon {display: inline-block;margin-right: 10px;}
+.TopNav .InfoLink .LogRegister {display: flex;}
+.TopNav .InfoLink .LogRegister p{margin: 0 10px;}
+.TopNav .InfoLink .InfoIcon i{margin: 0 10px;}
+.DHeader .container{max-width: 1000px !important;padding: 0;}
+.DHeader .navbar-nav .nav-item{margin: 0 24px;}
+.DHeader .navbar-nav .nav-item:first-child {margin: 0;}
+.DHeader .navbar-nav .nav-link{color: #000;font-family: 'signia pro',sans-serif;}
+.DHeader .navbar-nav .nav-link:hover{color: #d3995f;}
+
+.DHeadertwo{background: #000;color: #fff;}
+.DHeadertwo .navbar-nav .nav-link{color: #fff;font-family: 'signia pro',sans-serif;}
+.DHeadertwo .navbar-nav .nav-link:hover{color: #d3995f;}
+.DHeadertwo .form-control{border-radius: 0;}
+.DHeadertwo .form-one i{background: #d3995f;color: #fff;padding: 10px;}
+.DHeadertwo .form-two i{background: #d3995f;color: #fff;padding: 10px;}
+
+.myActive{color: #d3995f;}
+.back_to_top.on{position:fixed;bottom:50px;right:15px;cursor:pointer;height:50px;width:50px;line-height:50px;text-align:center;z-index:999;background:#181819;display:block;font-size:25px;color:#fff;border-radius:50px;}
+
+
+/* ============== Footer CSS ============== */
+.FooterMain{background: #181819;padding: 20px;margin-top: 20px;}
+.FooterMain .container{max-width: 1000px !important;}
+.FooterMain .FooterOne .img100{max-width:65px;}
+.FooterMain .FooterOne .SMTitle{color: #f5f5f5;font-size: 9px;font-family: 'signia pro',sans-serif;margin: 10px 0;}
+.FooterMain .FooterOne span{color: #d3995f;font-size: 9px;font-family: 'signia pro',sans-serif;}
+.FooterMain .FooterNavOne .SMTitle{color: #f5f5f5;font-size: 11px;font-family: 'signia pro',sans-serif;margin: 10px 0;}
+.FooterMain .FooterNavTwo .SMTitle{color: #f5f5f5;font-size: 11px;font-family: 'signia pro',sans-serif;margin: 10px 0;}
+.FooterMain .FooterInfo .BGTitle{color: #f5f5f5;font-size: 16px;font-family: 'signia pro',sans-serif;margin: 10px 0;}
+.FooterMain .FooterInfo .SMTitle{color: #f5f5f5;font-size: 11px;font-family: 'signia pro',sans-serif;margin: 10px 0;}
+.FooterMain .FooterInfo .MailBox{color: #f5f5f5;font-size: 11px;border: 1px solid #d3995f;width: 147px;padding: 10px 20px;}
+.FooterMain .FooterInfo i{color: #f5f5f5;margin-top: 30px;letter-spacing: 15px;}
+
+/* ============== Top Section CSS ============== */
+
+/*home section*/
+.HomeSec{background: #f5f5f547;}
+.HomeSec .container{max-width: 1000px !important;}
+.HomeSec .BGTitle{font-size: 40px; font-weight: 500;color: #d3995f;font-family: 'signia pro',sans-serif;padding: 35px 0;}
+.HomeSec .SMTitle{font-size: 10px; font-weight: 300;color: #9999;font-family: 'signia pro',sans-serif;}
+.HomeSec .shop-btn{outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #f5f5f547;}
+.HomeSec picture img{height: 100vh;}
+
+/*popular section*/
+.SecHeading .BGTitle{text-align: center;font-size: 30px;font-family: 'signia pro',sans-serif;color: #d3995f;line-height: 100px;}
+.PNavBar .navbar-nav .nav-link{color: #000;font-family: 'signia pro',sans-serif;}
+.PNavBar .navbar-nav .nav-link:hover{color: #d3995f;}
+
+/*product card*/
+.ProductCard{margin-top: 20px;cursor: pointer;}
+.ProductCard .SMTitle{font-size: 15px;font-family: 'signia',sans-serif;text-align: center;}
+.ProductCard .Price{font-size: 10px;font-family: 'signia',sans-serif;color: #d3995f;text-align: center;}
+
+/*Image Gallery two*/
+.ImgGallerytwo{margin-top: 20px;background: #f9f5f54d;}
+.ImgGallerytwo .Banner{text-align: center;padding-top: 20px;}
+.ImgGallerytwo .Banner .BGTitle{color: #d3995f;font-family: 'signia',sans-serif;font-size: 30px;font-weight: 500;}
+.ImgGallerytwo .Banner .SMTitle{color: #999;font-family: 'signia',sans-serif;font-size: 10px;}
+.ImgGallerytwo .shop-btn{outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #f9f5f54d;}
+.ImgGallerytwo .ProductCard .SMTitle{font-size: 15px;font-family: 'signia',sans-serif;text-align: start;}
+.ImgGallerytwo .ProductCard .Price{font-size: 10px;font-family: 'signia',sans-serif;color: #d3995f;text-align: end;}
+.DiscountBanner .Bannertow{background: #000;margin-top: 20px;padding: 20px;text-align: center;}
+.DiscountBanner .Bannertow .BGTitle{color: #d3995f;font-family: 'signia',sans-serif;font-size: 30px;font-weight: 500;}
+.DiscountBanner .Bannertow .Title{color: #ffff;font-family: 'signia',sans-serif;font-size: 35px;font-weight: 500;}
+
+.NewsLetter .LetterBox{text-align: center;background: #f9f5f54d;padding: 20px;}
+.NewsLetter .LetterBox form{display: flex;justify-content: center;}
+.NewsLetter .LetterBox .Title{color: #000;font-family: 'signia',sans-serif;font-size: 20px;font-weight: 500;}
+.NewsLetter .LetterBox .form-control{color: #000;font-family: 'signia',sans-serif;font-size: 15px;width: 50%;margin: 0 10px;}
+.NewsLetter .LetterBox .btn{background: #d3995f; color: #fff;font-family: 'signia',sans-serif;font-size: 15px;}
+
+/*collection*/
+.collection {margin-top: 20px;}
+.collection .collectionHead .BGTitle{color: #d3995f;font-family: 'signia',sans-serif;font-size: 30px;font-weight: 500;}
+.collection .SMTitle{color: #999;font-family: 'signia',sans-serif;font-size: 15px;margin-top: 35px;}
+.collection .ButtonGroup{text-align: end;}
+.collection .shop-btn{outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #f9f5f54d;}
+.collection .ProductCard .SMTitle{color: #999;font-family: 'signia',sans-serif;font-size: 15px;margin: 0;}
+
+.toggleButtom{text-align: center;}
+.toggleButtom .toggleBtn{outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #f9f5f54d;}
+.More{display: none;}
+
+/*story section*/
+.StoryOne{min-height: 401px;background: #9a9a9a;}
+.StoryTwo {background: #dfdfdf;padding: 50px;}
+.StoryTwo .img100{max-width: 100px;}
+.StoryTwo .BGTitle{font-family: 'signia',sans-serif;font-weight: 600;font-size: 25px;margin: 10px 0;}
+.StoryTwo .SMTitle{font-family: 'signia',sans-serif;font-weight: 300;font-size: 15px;color: #9b9b9b; margin: 10px 0;min-height: 85px;}
+.StoryTwo .shop-btn{outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #f9f5f54d;}
+.StoryBehind .row {
+	--bs-gutter-x: 0;
+}
+
+/*item details*/
+.itemDetail{
+    margin-top: 20px;
+}
+.itemDetail .dispaly picture img{aspect-ratio: 1;}
+.itemDetail .subDisplay{margin-top: 10px;}
+.itemDetail .detail .BGTitle{font-family: 'signia',sans-serif;font-weight: 600;font-size: 25px;margin: 10px 0;}
+.itemDetail .detail .SMTitle{color: #d3995f;font-family: 'signia',sans-serif;font-size: 15px;margin: 0;border-top: 1px solid #d3995f;width: 100px;}
+.itemDetail .custom{height: 200px;}
+.itemDetail .custom .size{outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #f9f5f54d;}
+.itemDetail .custom .sizeValue{display: none;margin:  0 5px;}
+.itemDetail .custom .sizeValue .SMTitle:hover{color: #d3995f;cursor: pointer;}
+.itemDetail .custom .qty{outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #f9f5f54d;}
+.itemDetail .custom .qtyValue{display: none;margin:  0 5px;}
+.itemDetail .custom .qtyValue .SMTitle:hover{color: #d3995f;cursor: pointer}
+.itemDetail .buy .shop-btn{color: #d3995f; outline: none;border: 1px solid #d3995f;font-family: 'signia pro',sans-serif;padding: 20px;margin: 20px 0;background: #000;width: 100%;}
+
+.customColor{}
+.red{cursor: pointer;}
+.red .SMTitle{color: #ff0000;font-family: 'signia',sans-serif;}
+.red .color {
+	width: 50px;
+	height: 50px;
+	background: #f00;
+}
+.blue{cursor: pointer;}
+.blue .SMTitle{color: #0000ff;font-family: 'signia',sans-serif;}
+.blue .color {
+	width: 50px;
+	height: 50px;
+	background: #00f;
+}
+.green{cursor: pointer;}
+.green .SMTitle{color: #00ff00;font-family: 'signia',sans-serif;}
+.green .color {
+	width: 50px;
+	height: 50px;
+	background: #00ff00;
+}
+.black{cursor: pointer;}
+.black .SMTitle{color: #000;font-family: 'signia',sans-serif;}
+.black .color {
+	width: 50px;
+	height: 50px;
+	background: #000;
+}
+
+.detailTxt .BGTitle{font-family: 'signia',sans-serif;font-weight: 600;font-size: 25px;}
+.detailTxt .SMTitle{font-family: 'signia',sans-serif;font-weight: 300;font-size: 15px;color: #9b9b9b; margin: 10px 0;min-height: 85px;}
+
+.delivery .SMTitle{font-family: 'signia',sans-serif;font-weight: 600;font-size: 18px;margin: 10px 0;}
+.delivery .Dplus{text-align: end;}
+.style .SMTitle{font-family: 'signia',sans-serif;font-weight: 600;font-size: 18px;margin: 10px 0;}
+.style .Splus{text-align: end;}
+.delivery .deliveryOpt{display: none;}
+.style .styleOpt{display: none;}
+
+.similarHeading .BGTitle{color: #d3995f;font-family: 'signia',sans-serif;font-weight: 500;font-size: 25px;text-align: center;margin-top: 100px;}
+
+@media screen and (max-width:1024px){
+.container{width:1024px;}
+}
+@media screen and (max-width:768px){
+.container{width:100%;}
+
+}
+@media screen and (max-width:736px){
+.container{width:100%;}
+}
+@media screen and (max-width:667px){
+.container{width:100%;}
+}
+@media screen and (max-width:640px){
+.container{width:100%;}
+}
+@media screen and (max-width:568px){
+.container{width:100%;}
+}
+@media screen and (max-width:480px){
+.container{width:100%;}
+}
+@media screen and (max-width:414px){
+.container{width:100%;}
+}
+@media screen and (max-width:375px){
+.container{width:100%;}
+}
+@media screen and (max-width:360px){
+.container{width:100%;}
+}
+@media screen and (max-width:320px){
+.container{width:100%;}
+}
